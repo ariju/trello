@@ -18,7 +18,7 @@
               <h3 class="logo">Jello</h3>
             </v-row>
           </nuxt-link>
-          <v-icon small @click="deleteBoard()">mdi-delete-outline</v-icon>
+          <v-icon size="50" @click="deleteBoard()">mdi-delete-outline</v-icon>
         </div>
       </v-container>
       <v-navigation-drawer
